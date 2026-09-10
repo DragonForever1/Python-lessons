@@ -1,22 +1,20 @@
-#task 1
+#1
 
 num = int(input())
 
-p = 1
-while p < num:
-    p = p * 2
+del = 1
+while del < num:
+    del = del * 2
 
-p = p // 2
-k = 0
+del = del // 2
+total = 0
 
-while p > 1:
-    if num % p == 0:
-        print(p, end=" ")
-        k = k + 1 
-    p = p // 2  
+while del > 1:
+    if num % del == 0:
+        print (del, end=" ")
+        total = total + 1 
+    del = del // 2  
 
-if k == 0:
-    print("NO")
-
-#task 2
+if total == 0:
+    print ("no")
 
