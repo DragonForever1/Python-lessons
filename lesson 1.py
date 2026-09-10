@@ -18,6 +18,5 @@ while p > 1:
 if k == 0:
     print("NO")
 
-
 #task 2
 
