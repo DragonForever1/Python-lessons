@@ -1,5 +1,4 @@
 #1
-
 num = int (input())
 
 del = 1
@@ -17,4 +16,3 @@ while del > 1:
 
 if total == 0:
     print ("no")
-
