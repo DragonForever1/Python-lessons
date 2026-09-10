@@ -1,6 +1,6 @@
 #1
 
-num = int(input())
+num = int (input())
 
 del = 1
 while del < num:
